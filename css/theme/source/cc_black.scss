@@ -23,7 +23,7 @@ $backgroundColor: #222;
 $mainColor: #fff;
 $headingColor: #fff;
 
-$mainFontSize: 30px;
+$mainFontSize: 31px;
 $mainFont: 'Panton';
 $headingFont: 'Panton';
 
@@ -54,7 +54,7 @@ $headingTextTransform: none;
 //$heading4Size: 1.00em;
 
 //$heading1Size: 2.5em;
-//$heading2Size: 1.6em;
+$heading2Size: 1.6em;
 //$heading3Size: 1.3em;
 //$heading4Size: 1.0em;
 /*
@@ -68,6 +68,26 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+cc-chapter {
+   text-align: center;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal ul ul {
+    list-style-type: disc;
+}
+
+.reveal ul ul ul {
+    list-style-type: disc;
+}
+
+.reveal ul ul ul ul {
+    list-style-type: disc;
+}
 
 .reveal small {
   font-size: 1.5em;  
